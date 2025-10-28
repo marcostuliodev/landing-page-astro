@@ -1,0 +1,9 @@
+# Regra para todos os robôs de busca (Google, Bing, etc.)
+User-agent: *
+
+# Permitir que acessem todo o site.
+Allow: /
+
+# Opcional, mas recomendado: Indique o sitemap (ajuste a URL quando fizer deploy)
+# O Astro gera 'sitemap-index.xml' se você usar a integração @astrojs/sitemap
+Sitemap: https://<SEU-DOMINIO-FINAL>/sitemap-index.xml

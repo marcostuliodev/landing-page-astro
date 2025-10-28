@@ -1,0 +1,59 @@
+---
+import Layout from '../layouts/layout.astro';
+
+// Defina as props de SEO para este layout
+const pageTitle = "Elaine Duarte | Quiroprata";
+const pageDescription = "Seu bem-estar é nossa prioridade. Oferecemos tratamentos personalizados para aliviar dores e melhorar sua qualidade de vida.";
+---
+
+<Layout title={pageTitle} description={pageDescription}>
+	
+    <header>
+        <div class="logotipo">
+            <img src="/assets/Sem título-1.webp" alt="Logotipo de Elaine Duarte — Quiroprata">
+            <div class="texto">
+                <h1>Elaine Duarte</h1>
+                <h2>Quiroprata</h2>
+            </div>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li class="btnMenu"><a href="#home">Home</a></li>
+                <li class="btnMenu"><a href="#servicos">Serviços</a></li>
+                <li class="btnMenu"><a href="#quem-sou">Quem sou</a></li>
+                <li class="btnMenu"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Bem-vindo à Clínica de Quiropraxia Elaine Duarte</h2>
+            <p>Seu bem-estar é nossa prioridade. Oferecemos tratamentos personalizados para aliviar dores e melhorar sua qualidade de vida.</p>
+        </section>
+
+        <section id="servicos">
+            <h2>Nossos Serviços</h2>
+            <ul>
+                <li>Ajustes Quiropráticos</li>
+                <li>Reabilitação Postural</li>
+                <li>Terapias de Alívio da Dor</li>
+                <li>Consultas Personalizadas</li>
+            </ul>
+        </section>
+
+        <section id="quem-sou">
+            <h2>Quem Sou</h2>
+            <p>Sou Elaine Duarte, uma quiroprata dedicada com anos de experiência em ajudar pacientes a alcançar uma vida sem dor e com mais mobilidade.</p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para agendar uma consulta ou tirar suas dúvidas.</p>
+            <p>Email:
+                <a href="mailto:contato@elaineduarte.com">contato@elaineduarte.com</a>
+            </p>
+        </section>
+    </main>
+
+</Layout>
